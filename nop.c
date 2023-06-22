@@ -1,11 +1,11 @@
 #include "monty.h"
 
 /**
- * f_nop - Does nothing.
+ * nop_f - Does nothing.
  * @head: Pointer to the stack head.
  * @counter: Current line number in the file.
  */
-void f_nop(stack_t **head, unsigned int counter)
+void nop_f(stack_t **head, unsigned int counter)
 {
 	(void)head;
 	(void)counter;
