@@ -6,7 +6,7 @@
  * @counter: Current line number in the file.
  */
 
-void f_push(stack_t **head, unsigned int counter)
+void push_f(stack_t **head, unsigned int counter)
 {
 	int n;
 	int flag = 0;

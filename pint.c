@@ -5,7 +5,7 @@
  * @stack: Pointer to the stack
  * @line_number: The current line number
  */
-void f_pint(stack_t **stack, unsigned int line_number)
+void pint_f(stack_t **stack, unsigned int line_number)
 {
 	if (!*stack)
 	{

@@ -5,7 +5,7 @@
  * @stack: Pointer to the stack
  * @line_number: The current line number
  */
-void f_pop(stack_t **stack, unsigned int line_number)
+void pop_f(stack_t **stack, unsigned int line_number)
 {
 	stack_t *temp;
 

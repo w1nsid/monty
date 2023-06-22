@@ -6,7 +6,7 @@
  * @counter: The current line number in the bytecode file. Not used in this
  * function.
  */
-void f_pall(stack_t **head, unsigned int counter)
+void pall_f(stack_t **head, unsigned int counter)
 {
 	stack_t *temp = NULL;
 
