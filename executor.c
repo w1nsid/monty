@@ -16,11 +16,13 @@ int execute_line(
 	unsigned int counter,
 	FILE *file)
 {
-	instruction_t opst[] = { { "push", push_f }, { "pall", pall_f },
-							 { "pint", pint_f }, { "pop", pop_f },
-							 { "swap", swap_f }, { "add", add_f },
-							 { "nop", nop_f },	 { "queue", queue_f },
-							 { NULL, NULL } };
+	instruction_t opst[] = { { "push", push_f },   { "pall", pall_f },
+							 { "pint", pint_f },   { "pop", pop_f },
+							 { "swap", swap_f },   { "add", add_f },
+							 { "nop", nop_f },	   { "sub", sub_f },
+							 { "div", div_f },	   { "mul", mul_f },
+							 { "mod", mod_f },	   { "pchar", pchar_f },
+							 { "queue", queue_f }, { NULL, NULL } };
 	char *op;
 	unsigned int i;
 

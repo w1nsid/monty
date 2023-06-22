@@ -76,5 +76,10 @@ void pop_f(stack_t **head, unsigned int number);
 void swap_f(stack_t **head, unsigned int number);
 void add_f(stack_t **head, unsigned int number);
 void nop_f(stack_t **head, unsigned int number);
+void sub_f(stack_t **head, unsigned int number);
+void div_f(stack_t **head, unsigned int number);
+void mul_f(stack_t **head, unsigned int number);
+void mod_f(stack_t **head, unsigned int number);
+void pchar_f(stack_t **head, unsigned int number);
 
 #endif
