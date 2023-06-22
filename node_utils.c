@@ -14,6 +14,9 @@ void addnode(stack_t **head, int n)
 	if (!newNode)
 	{
 		fprintf(stderr, "Error: malloc failed\n");
+		fclose(bus.file);
+		free(bus.content);
+		free_stack(*head);
 		exit(EXIT_FAILURE);
 	}
 
