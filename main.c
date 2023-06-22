@@ -61,6 +61,16 @@ int main(int argc, char *argv[])
 	{
 		bus.content = content;
 		execute_line(content, &stack, counter, file);
+		if (content != NULL)
+		{
+			free(content);
+			content = NULL;
+		}
+	}
+
+	/* Free the content after the loop */
+	if (content != NULL)
+	{
 		free(content);
 		content = NULL;
 	}
