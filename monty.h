@@ -74,5 +74,6 @@ void pall_f(stack_t **head, unsigned int number);
 void pint_f(stack_t **head, unsigned int number);
 void pop_f(stack_t **head, unsigned int number);
 void swap_f(stack_t **head, unsigned int number);
+void add_f(stack_t **head, unsigned int number);
 
 #endif
