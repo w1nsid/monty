@@ -16,9 +16,9 @@ int execute_line(
 	unsigned int counter,
 	FILE *file)
 {
-	instruction_t opst[] = { { "push", f_push },
-							 { "pall", f_pall },
-							 { NULL, NULL } };
+	instruction_t opst[] = { { "push", push_f },   { "pall", pall_f },
+							 { "pint", pint_f },   { "pop", pop_f },
+							 { "queue", queue_f }, { NULL, NULL } };
 	char *op;
 	unsigned int i;
 

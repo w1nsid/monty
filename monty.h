@@ -67,11 +67,11 @@ void free_stack(stack_t *head);
 void free_all_resources(FILE *file, char *content, stack_t *stack);
 void addnode(stack_t **head, int n);
 void addqueue(stack_t **head, int n);
-void f_queue(stack_t **head, unsigned int counter);
+void queue_f(stack_t **head, unsigned int counter);
 /* op codes */
-void f_push(stack_t **head, unsigned int number);
-void f_pall(stack_t **head, unsigned int number);
-void f_pint(stack_t **head, unsigned int number);
-void f_pop(stack_t **head, unsigned int number);
+void push_f(stack_t **head, unsigned int number);
+void pall_f(stack_t **head, unsigned int number);
+void pint_f(stack_t **head, unsigned int number);
+void pop_f(stack_t **head, unsigned int number);
 
 #endif
