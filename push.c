@@ -10,8 +10,9 @@ void f_push(stack_t **head, unsigned int counter)
 {
 	int n;
 	int flag = 0;
+	int j;
 
-	for (int j = (bus.arg && bus.arg[0] == '-' ? 1 : 0);
+	for (j = (bus.arg && bus.arg[0] == '-' ? 1 : 0);
 		 bus.arg && bus.arg[j] != '\0';
 		 j++)
 	{
