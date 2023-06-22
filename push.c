@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * f_push - Pushes an integer to a stack or a queue.
+ * push_f - Pushes an integer to a stack or a queue.
  * @head: Pointer to the stack/queue.
  * @counter: Current line number in the file.
  */

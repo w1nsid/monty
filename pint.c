@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * f_pint - Prints the top of the stack
+ * pint_f - Prints the top of the stack
  * @stack: Pointer to the stack
  * @line_number: The current line number
  */
