@@ -61,6 +61,7 @@ int execute_line(
 	FILE *file);
 void cleanup(char *content, FILE *file, stack_t **stack);
 void free_stack(stack_t *head);
+void free_all_resources(FILE *file, char *content, stack_t *stack);
 void addnode(stack_t **head, int n);
 void addqueue(stack_t **head, int n);
 void f_queue(stack_t **head, unsigned int counter);
