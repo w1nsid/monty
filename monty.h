@@ -68,5 +68,7 @@ void f_queue(stack_t **head, unsigned int counter);
 /* op codes */
 void f_push(stack_t **head, unsigned int number);
 void f_pall(stack_t **head, unsigned int number);
+void f_pint(stack_t **head, unsigned int number);
+void f_pop(stack_t **head, unsigned int number);
 
 #endif
