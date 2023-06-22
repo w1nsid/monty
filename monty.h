@@ -16,7 +16,8 @@
  * Description: doubly linked list node structure
  * for stack, queues, LIFO, FIFO Holberton project
  */
-typedef struct stack_s {
+typedef struct stack_s
+{
 	int n;
 	struct stack_s *prev;
 	struct stack_s *next;
@@ -30,7 +31,8 @@ typedef struct stack_s {
  * @lifi: flag change stack <-> queue
  * Description: carries values through the program
  */
-typedef struct bus_s {
+typedef struct bus_s
+{
 	char *arg;
 	FILE *file;
 	char *content;
@@ -46,7 +48,8 @@ extern bus_t bus;
  * Description: opcode and its function
  * for stack, queues, LIFO, FIFO Holberton project
  */
-typedef struct instruction_s {
+typedef struct instruction_s
+{
 	char *opcode;
 	void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
