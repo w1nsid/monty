@@ -3,7 +3,7 @@
 bus_t bus = { NULL, NULL, NULL, 0 };
 
 #define ERR_USAGE 1
-#define ERR_FILE 2
+#define ERR_FILE 1
 
 /**
  * check_usage - check if the program is called with the correct number
